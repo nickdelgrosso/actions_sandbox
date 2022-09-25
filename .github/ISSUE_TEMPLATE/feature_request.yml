@@ -5,14 +5,14 @@ labels:
 body:
   - type: textarea
     attributes:
-      label: Problem:
+      label: Problem\:
       description: Is your feature request related to a problem? Please describe.
       placeholder: I'm always frustrated when [...]
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Possible Solution:
+      label: Possible Solution\:
       description:  Describe the solution you'd like.
       placehold: One approach to solving this would be...
     validations:

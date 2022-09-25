@@ -18,4 +18,5 @@ jobs:
       - uses: actions/add-to-project@v0.3.0
         with:
           project-url: https://github.com/users/nickdelgrosso/projects/3
+          github-token: ${{ secrets.ISSUE_ADD }}
           

@@ -13,7 +13,7 @@ on:
 jobs:
   add-to-project:
     name: Add Issue to GitHub projects
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@v0.3.0
         with:

@@ -1,0 +1,11 @@
+name: Bug Report
+description: Report a Bug
+labels:
+  - bug-report
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What happened?
+      placeholder: I was trying... and then I saw...
+

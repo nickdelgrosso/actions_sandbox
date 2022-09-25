@@ -14,7 +14,7 @@ body:
     attributes:
       label: Possible Solution
       description:  Describe the solution you'd like.
-      placehold: One approach to solving this would be...
+      placeholder: One approach to solving this would be...
     validations:
       required: true
   - type: textarea

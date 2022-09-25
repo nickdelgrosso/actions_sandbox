@@ -15,6 +15,7 @@ jobs:
     name: Add Issue to GitHub projects
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: actions/add-to-project@v0.3.0
         with:
           project-url: https://github.com/users/nickdelgrosso/projects/3
